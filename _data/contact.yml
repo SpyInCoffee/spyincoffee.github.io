@@ -1,14 +1,17 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+#- type: github
+#  icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
+- type: link
+  icon: "fa-solid fa-link"
+  url: https://linksta.cc/@bHVrYXMgcm9iZXJ0cw
 
 - type: rss
   icon: "fas fa-rss"
@@ -38,3 +41,5 @@
 # - type: threads
 #   icon: 'fa-brands fa-threads'
 #   url: ''                   # Fill with your Threads profile link
+#
+
