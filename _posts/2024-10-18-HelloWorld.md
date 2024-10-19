@@ -68,4 +68,4 @@ $ bundle exec jekyll s
 After your site is running, make required changes, apply your staged changes, commit them, and push them to GitHub for deployment.
 
 > If you experience issues with GitHub Pages not updating from a branch, update the build and deployment source to GitHub Actions. After making this change, re-run all jobs under the Pages Actions.
->{: .prompt-warning }
+{: .prompt-warning }
