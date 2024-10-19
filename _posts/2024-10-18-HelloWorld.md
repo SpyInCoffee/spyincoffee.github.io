@@ -18,9 +18,12 @@ Before diving into the technical aspects of how this site was deployed, I’d li
 To stay informed about future updates, feel free to subscribe via the [RSS feed](https://spyincoffee.github.io/feed.xml) or connect on [LinkedIn](https://www.linkedin.com/in/lukasroberts/).
 
 
-## Deploying a Jekyll Static Site.
+> Below is a short guide on how I deployed this Jekyll site via GitHub Pages. It's an extension of this "Hello, World!" page, in case anyone is inspired to set up something similar. The following is a condensed version of the official documentation, and I highly recommend diving deeper into [Jekyll](https://jekyllrb.com/) and the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for further infomration.
+{: .prompt-info }
 
-# Environment Setup
+## Deploying a Jekyll Static Site
+
+### Environment Setup
 
 - **Operating System**: Windows 11
 - **Tools Required**:
@@ -29,41 +32,37 @@ To stay informed about future updates, feel free to subscribe via the [RSS feed]
   - Dev Containers extension for VS Code
   - GitHub account
 
-> Remember to share pass your Git credentials with your container. For guidance, refer to the [Sharing Git Credentials with Your Container](https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials) documentation.
+> Don't forget to share your Git credentials with your container. For detailed instructions, refer to the [Sharing Git Credentials with Your Container](https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials) guide.
 {: .prompt-info }
 
-## Getting Started with jeykell themse
+## Using the Chirpy Starter Template
 
-In this comprehensive overview, you will learn how to install, configure, and use a jekell themse, as well as how to deploy it to a web server.
+This guide provides an overview of how to install, configure, and use a Jekyll theme, and ultimately deploy it to a web server.
 
 ### Using the Starter
 
-This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.
+This method simplifies future updates, isolates unnecessary files, and is ideal for users who prefer minimal configuration.
 
-1. Sign in to GitHub and navigate to the themse
-2. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
+1. Sign in to GitHub and navigate to the theme's repository.
+2. Name your new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
 
 ### Using Dev Containers
 
-Dev Containers offer an isolated environment using Docker, preventing conflicts with your system and ensuring all dependencies are managed within the container.
+Dev Containers create an isolated environment using Docker, preventing conflicts with your local system and ensuring all dependencies are managed within the container.
 
 1. **Install Docker**:
    - On Windows/macOS, install **Docker Desktop**.
 2. **Install VS Code** and the **Dev Containers extension**.
 3. **Clone your repository**:
-   - Start VS Code and clone your repository in a container volume.
+   - Open VS Code and [clone your repository within a container volume](https://code.visualstudio.com/docs/devcontainers/containers#:~:text=Start%20VS%20Code%20and%20run,that%20appears%20and%20press%20Enter.).
+
 4. Wait for the Dev Containers setup to complete.
 
 ### Usage
 
-To start your Jekyll server, run the following command in a terminal:
+To start your Jekyll server, run the following command in a VS terminal:
 
 ```terminal
 $ bundle exec jekyll s
 ```
->  you must run that command in the VS Code Terminal if you are using Dev Containers
-{: .prompt-info }
-
-At this point, 
-
-The final part is to apply staged changes, and commit and push to github
+After your site is running, make required changes, apply your staged changes, commit them, and push them to GitHub for deployment.
